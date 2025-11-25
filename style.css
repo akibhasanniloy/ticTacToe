@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 body{
@@ -41,7 +41,7 @@ body{
     font-size: 1.25rem;
     background-color: #191913;
     color: white;
-    border: 1rem;
+    border-radius: 1rem;
     border: none;
 }
 
@@ -67,6 +67,7 @@ body{
     flex-direction: column;
     gap: 4rem;
 }
+
 .hide{
     display: none;
 }
