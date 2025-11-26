@@ -17,7 +17,7 @@ You can play the game live at either of the following links:
 
 ## 💡 Inspiration
 
-This project was inspired by the **Apna College** web development tutorials, specifically the lessons taught by **Shardha Khapra**.
+This project was inspired by the **Apna College** web development tutorials.
 
 ## ⬇️ Download & Installation
 
