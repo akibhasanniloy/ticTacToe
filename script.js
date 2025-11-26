@@ -1,15 +1,11 @@
 let boxes = document.querySelectorAll(".box");
-let resetBtn = document.querySelectorAll("#reset-btn");
-let newGameBtn = document.querySelectorAll("#new-btn");
-let msgContainer = document.querySelectorAll(".msg-container");
-let msg = document.querySelectorAll("#msg");
+let resetBtn = document.querySelector("#reset-btn");
+let newGameBtn = document.querySelector("#new-btn");
+let msgContainer = document.querySelector(".msg-container");
+let msg = document.querySelector("#msg");
 
-let tuen0 = true;
+let turnO = true;
 let count = 0;
-
-resetBtn.addEventListener("click", () => {
-  console.log("clicked");
-});
 
 let winPatterns = [
   [0, 1, 2],
@@ -22,20 +18,26 @@ let winPatterns = [
   [6, 7, 8],
 ];
 
+resetBtn.addEventListener("click", () => {
+  console.log("clicked");
+});
+
 const resetGame = () => {
-  tuen0 = true;
+  turnO = true;
   count = 0;
-  //   enabledBoxes();
+  enabledBoxes();
   msgContainer.classList.add("hide");
 };
 
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
-    console.log("boxes was clicked");
+    console.log("box was click");
     if (turnO) {
+      //player O
       box.innerText = "O";
       turnO = false;
     } else {
+      //player X
       box.innerText = "X";
       turnO = true;
     }
@@ -47,6 +49,7 @@ boxes.forEach((box) => {
     if (count === 9 && !isWinner) {
       gameDraw();
     }
+
     checkWinner();
   });
 });
