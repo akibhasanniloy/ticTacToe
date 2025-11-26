@@ -9,15 +9,15 @@ You can play the game live at either of the following links:
 - **Netlify Deployment:** [https://tictactoeakib.netlify.app/](https://tictactoeakib.netlify.app/)
 - **GitHub Pages:** [https://akibhasanniloy.github.io/ticTacToe/](https://akibhasanniloy.github.io/ticTacToe/)
 
-## 💡 Inspiration
-
-This project was inspired by the **Apna College** web development tutorials, specifically the lessons taught by **Shardha Khapra**.
-
 ## 🎮 Features
 
 - **2 Player Mode:** Play with a friend on the same device.
 - Interactive and responsive user interface.
 - Instant win detection and game reset functionality.
+
+## 💡 Inspiration
+
+This project was inspired by the **Apna College** web development tutorials, specifically the lessons taught by **Shardha Khapra**.
 
 ## ⬇️ Download & Installation
 
