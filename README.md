@@ -20,4 +20,4 @@ You can play the game live at either of the following links:
 If you want to run this project locally on your machine, you can clone the repository using the following command:
 
 ```bash
-(https://github.com/akibhasanniloy/ticTacToe.git)
+https://github.com/akibhasanniloy/ticTacToe.git
